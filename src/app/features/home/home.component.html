@@ -1,6 +1,15 @@
-<div class="d-flex justify-content-around align-self-center">
-
-    <img src="assets/skate.JPG" alt="" />
-
-  <b>Who is Marco Cabrera?</b>
-</div>
+<mat-grid-list cols="4" rowHeight="500px">
+  <mat-grid-tile
+      *ngFor="let tile of tiles; index as i "
+      [colspan]="tile.cols"
+      [rowspan]="tile.rows"
+      [style.background]="tile.color">
+      <div *ngIf="i === 0">
+        <h1>Who is Marco Cabrera?</h1>
+      </div>
+      <div *ngIf="i === 1">
+        <img src="assets/skate.JPG" alt="" style="width:auto;height:auto;">
+      </div>
+    {{tile.text}}
+  </mat-grid-tile>
+</mat-grid-list>
