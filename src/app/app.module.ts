@@ -40,11 +40,13 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import { HomeComponent } from './features/home/home.component';
 import { StoreComponent } from './features/store/store.component';
+import { AudioPlayerComponent } from './features/audio-player/audio-player.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    StoreComponent
+    StoreComponent,
+    AudioPlayerComponent
   ],
   imports: [
     BrowserModule,

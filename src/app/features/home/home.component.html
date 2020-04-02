@@ -21,6 +21,9 @@
       [style.background]="tile.color">
       <div *ngIf="i === 0">
       </div>
+      <div *ngIf="i ===1">
+        <app-audio-player></app-audio-player>
+      </div>
     {{tile.text}}
   </mat-grid-tile>
 </mat-grid-list>

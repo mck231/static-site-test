@@ -17,15 +17,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    let sound = new Howl({
-      src: ['./././assets/pennies.wav'],
-      autoplay: true,
-      loop: true,
-      volume: 0.5,
-      onend: function() {
-        console.log('Finished!');
-      }
-    });
+    
   }
   tiles: Tile[] = [
     {text: '', cols: 3, rows: 2, color: 'lightgreen'},
@@ -33,7 +25,15 @@ export class HomeComponent implements OnInit {
   ];
   tiles2: Tile[] = [
     {text: '', cols: 4, rows: 1, color: 'lightgrey'},
-    {text: 'A DJ?', cols: 1, rows: 2, color: ''}
+    {text: 'A DJ?', cols: 1, rows: 3, color: ''},
+    {text: '', cols: 4, rows: 1, color: 'lightgrey'},
   ];
 
 }
+// service firebase.storage {
+//   match /b/{bucket}/o {
+//     match /{allPaths=**} {
+//       allow read, write: if request.auth != null;
+//     }
+//   }
+// }
