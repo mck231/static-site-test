@@ -1,4 +1,4 @@
-<mat-grid-list cols="4" rowHeight="500px">
+<!-- <mat-grid-list cols="4" rowHeight="500px">
   <mat-grid-tile
       *ngFor="let tile of tiles; index as i "
       [colspan]="tile.cols"
@@ -12,8 +12,8 @@
       </div>
     {{tile.text}}
   </mat-grid-tile>
-</mat-grid-list>
-<mat-grid-list cols="4" rowHeight="225px">
+</mat-grid-list> -->
+<!-- <mat-grid-list cols="4" rowHeight="225px">
   <mat-grid-tile
       *ngFor="let tile of tiles2; index as i "
       [colspan]="tile.cols"
@@ -22,8 +22,24 @@
       <div *ngIf="i === 0">
       </div>
       <div *ngIf="i ===1">
-        <app-audio-player></app-audio-player>
+
       </div>
     {{tile.text}}
   </mat-grid-tile>
-</mat-grid-list>
+</mat-grid-list> -->
+<div class="container wave-image">
+  <div class="d-flex justify-content-center">
+    <div><h1>Seign Productions</h1></div>
+  </div>
+</div>
+<div class="container-fluid mission-image">
+  <div class="d-flex justify-content-start">
+    <p class="med-text">The mission of sEign is to revolutianize the music industry by any means!</p>
+  </div>
+</div>
+<div class="container-fluid green-image">
+  <div class="d-flex justify-content-start">
+    <p class=" white-text">Have a listen to what's in store.</p>
+  </div>
+  <app-audio-player></app-audio-player>
+</div>

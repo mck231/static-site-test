@@ -1,5 +1,46 @@
 h1
 {
-  font-size: 90px;
+  font-size: xx-large;
   font-family: fantasy;
+  margin-top: 50px;
+}
+.wave-image
+{
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/who-is-marco-cabrera.appspot.com/o/k-wave.jpg?alt=media&token=f42df4db-3a68-4814-b34e-1143ad2d22be);
+  background-repeat: no-repeat;
+  height: 1255px;
+  background-position-x: center;
+  background-size: 100% 100%;
+
+}
+.mission-image
+{
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/who-is-marco-cabrera.appspot.com/o/mission.jpg?alt=media&token=487aa65c-b803-47b6-b09c-b6c591d7577b);
+  background-repeat: no-repeat;
+  height: 1255px;
+  background-position-x: center;
+  background-size: 100% 100%;
+
+}
+.med-text
+{
+  margin-top: 50px;
+  font-size: large;
+  font-family: fantasy;
+}
+.green-image
+{
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/who-is-marco-cabrera.appspot.com/o/sparkling-green-background-1510698308FHM.jpg?alt=media&token=807d54c1-58ae-4b53-8ce2-fb4d7c47997d);
+  background-repeat: repeat-x;
+  height: 1255px;
+  background-position-x: center;
+  background-size: 100% 100%;
+
+}
+.white-text{
+  margin-top: 50px;
+  color: white;
+  font-family: fantasy;
+  font-size: x-large;
+
 }
