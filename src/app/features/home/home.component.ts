@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
    test2.MusicImage = "https://firebasestorage.googleapis.com/v0/b/who-is-marco-cabrera.appspot.com/o/seignsign.jpg?alt=media&token=221c0c56-f56f-4722-a7ab-4a5fa31726b4";
    test2.MusicSummary = "This is the song that's going to start his carrier";
    test2.SubTitle ="Melodic dub";
-   test2.Title = "sEign";
+   test2.Title = "Segin";
    this.musicTile.push(test2);
   }
 

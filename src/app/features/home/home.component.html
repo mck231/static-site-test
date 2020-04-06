@@ -30,21 +30,21 @@
 <div class="container wave-image">
   <div class="d-flex justify-content-center">
     <div>
-      <h1>Seign Productions</h1>
+      <h1>Segin Productions</h1>
     </div>
   </div>
 </div>
 <div class="container-fluid mission-image">
   <div class="d-flex justify-content-start">
-    <p class="med-text">The mission of sEign is to revolutianize the music industry by any means!</p>
+    <p class="med-text">The mission of Segin is to revolutianize the music industry by any means!</p>
   </div>
 </div>
 <div class="container-fluid green-image">
   <div class="d-flex justify-content-start">
     <p class=" white-text">Have a listen to what's in store.</p>
   </div>
-  <div  class="d-flex justify-content-start">
-    <div class="mr-2" *ngFor="let tile of musicTile">
+  <div class="d-flex no-overflow">
+    <div class="mr-2 mb-2" *ngFor="let tile of musicTile">
       <app-audio-player [inputMusicTile]="tile"></app-audio-player>
     </div>
   </div>
