@@ -29,7 +29,9 @@
 </mat-grid-list> -->
 <div class="container wave-image">
   <div class="d-flex justify-content-center">
-    <div><h1>Seign Productions</h1></div>
+    <div>
+      <h1>Seign Productions</h1>
+    </div>
   </div>
 </div>
 <div class="container-fluid mission-image">
@@ -41,5 +43,9 @@
   <div class="d-flex justify-content-start">
     <p class=" white-text">Have a listen to what's in store.</p>
   </div>
-  <app-audio-player></app-audio-player>
+  <div  class="d-flex justify-content-start">
+    <div class="mr-2" *ngFor="let tile of musicTile">
+      <app-audio-player [inputMusicTile]="tile"></app-audio-player>
+    </div>
+  </div>
 </div>

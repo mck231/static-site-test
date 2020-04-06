@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import {Howl, Howler} from 'howler';
+import { MusicTileModel } from 'src/app/shared/models/music-tile-model';
 
 @Component({
   selector: 'app-audio-player',
@@ -10,7 +11,9 @@ export class AudioPlayerComponent implements OnInit {
 
   constructor() { }
 
+  @Input() inputMusicTile: MusicTileModel;
+
   ngOnInit(): void {
   }
-  
+
 }
